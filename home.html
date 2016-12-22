@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:pink;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 13%;
+  margin-right: 60%;
+  margin-bottom: 10%
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-style: oblique;
+  }
+
+html, body {
+    min-height: 100%;
+}
+
+p{
+  font-size:70px;
+  color:#bd5837;
+  margin-top:18%;
+  margin-left:35%;
+
+}
+
+</style>
+</head>
+<body>
+<p>Quiz Wibsite</p>
+
+<center>
+<button class="button" style="vertical-align:middle"><span><a href="file:///C:/Users/user/Desktop/project%20RBK/pro.html">START</a></span></button>
+</center>
+</body>
+</html>
